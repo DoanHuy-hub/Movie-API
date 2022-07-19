@@ -5,7 +5,7 @@ const adminRoutes = require('./admins/routes')
 const filmRoutes = require('./films/routes')
 
 const app = express() // app ở đây đại diện cho cái dự án nodejs mà mình sẽ làm việc xuyên suốt
-const PORT = process.env.PORT || 3000
+const PORT = (process.env.PORT || 3000)
 
 app.use(express.json())
 
